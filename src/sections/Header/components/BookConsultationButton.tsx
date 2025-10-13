@@ -2,8 +2,10 @@ export const BookConsultationButton = () => {
   return (
     <div className="relative self-start caret-transparent hidden h-10 max-h-[99999px] max-w-[99999px] order-3 w-[170.854px] mr-0 md:block md:mr-[10.0946px]">
       <a
-        href="https://app.digitalcabinet.co.za/share/index.php?token=6cc386c7fd5b3383F535d7930599b9489"
+        href="https://app.digitalcabinet.co.za/forms/index.php?tid=16002"
         aria-label="Book Consultation"
+        target="_blank"
+        rel="noopener noreferrer"
         className="bg-stone-700 shadow-[rgba(0,0,0,0)_0.71px_0.71px_2px_0px] box-border caret-transparent block h-full min-h-2.5 min-w-2.5 w-full border-stone-700 rounded-[250px] border-2 border-solid hover:bg-stone-700/50 hover:border"
       >
         <span className="items-center caret-transparent flex flex-row-reverse grow h-full justify-center w-full overflow-hidden">

@@ -2,8 +2,10 @@ export const RegisterButton = () => {
   return (
     <div className="relative self-start caret-transparent hidden h-10 min-w-0 order-4 w-[110px] mr-[2.96925px] md:block md:min-w-[auto] md:order-2 md:mr-[10.1784px]">
       <a
-        href="https://app.digitalcabinet.co.za/share/index.php?token=cc47159a8cdfee63F5b5a20a7dd2b0164"
+        href="https://app.digitalcabinet.co.za/forms/index.php?tid=16001"
         aria-label="Register"
+        target="_blank"
+        rel="noopener noreferrer"
         className="shadow-[rgba(0,0,0,0)_0.71px_0.71px_2px_0px] box-border caret-transparent block h-full min-h-2.5 min-w-2.5 w-full border-stone-700 rounded-[250px] border-2 border-solid hover:bg-stone-400/30 hover:border"
       >
         <span className="items-center caret-transparent flex flex-row-reverse grow h-full justify-center w-full overflow-hidden">

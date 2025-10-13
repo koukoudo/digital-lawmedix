@@ -4,6 +4,8 @@ export const ServiceButton = () => {
       <a
         href="https://drsegwapa.co.za/"
         aria-label="Plastic Reconstructive & Aesthetic Surgery"
+        target="_blank"
+        rel="noopener noreferrer"
         className="bg-stone-300 shadow-[rgba(0,0,0,0)_0.71px_0.71px_2px_0px] box-border caret-transparent block h-full min-h-2.5 min-w-2.5 w-full border-stone-700 rounded-[250px] border-2 border-solid hover:bg-stone-700/50 hover:border"
       >
         <span className="items-center caret-transparent flex flex-row-reverse grow h-full justify-center w-full overflow-hidden">
