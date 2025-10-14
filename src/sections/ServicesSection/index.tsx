@@ -3,7 +3,7 @@ import { ServicesList } from "@/sections/ServicesSection/components/ServicesList
 
 export const ServicesSection = () => {
   return (
-    <section className="relative self-stretch bg-transparent caret-transparent grid flex-col col-end-2 col-start-1 row-end-12 row-start-11 grid-cols-[minmax(0px,1fr)] grid-rows-[1fr] justify-self-stretch max-h-[99999px] max-w-[99999px] min-h-[1903.71px] md:row-end-13 md:row-start-12 md:min-h-[1818.42px]">
+    <section id="services" className="relative self-stretch bg-transparent caret-transparent grid flex-col col-end-2 col-start-1 row-end-12 row-start-11 grid-cols-[minmax(0px,1fr)] grid-rows-[1fr] justify-self-stretch max-h-[99999px] max-w-[99999px] min-h-[1903.71px] md:row-end-13 md:row-start-12 md:min-h-[1818.42px]">
       <div className="absolute caret-transparent h-full [mask-repeat:no-repeat] [mask-size:100%] w-full overflow-hidden left-0 top-0">
         <div className="absolute bg-neutral-100 caret-transparent h-full w-full top-0"></div>
         <div className="caret-transparent h-full"></div>

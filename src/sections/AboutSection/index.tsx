@@ -3,7 +3,7 @@ import { AboutContent } from "@/sections/AboutSection/components/AboutContent";
 
 export const AboutSection = () => {
   return (
-    <section className="relative self-stretch bg-transparent caret-transparent grid flex-col col-end-2 col-start-1 row-end-13 row-start-12 grid-cols-[minmax(0px,1fr)] grid-rows-[1fr] justify-self-stretch max-h-[99999px] max-w-[99999px] min-h-[2089.5px] md:row-end-[14] md:row-start-13 md:min-h-[2252.71px]">
+    <section id="about" className="relative self-stretch bg-transparent caret-transparent grid flex-col col-end-2 col-start-1 row-end-13 row-start-12 grid-cols-[minmax(0px,1fr)] grid-rows-[1fr] justify-self-stretch max-h-[99999px] max-w-[99999px] min-h-[2089.5px] md:row-end-[14] md:row-start-13 md:min-h-[2252.71px]">
       <div className="absolute caret-transparent h-full [mask-repeat:no-repeat] [mask-size:100%] w-full overflow-hidden left-0 top-0">
         <div className="absolute bg-stone-400 caret-transparent h-full w-full top-0"></div>
         <div className="caret-transparent h-full"></div>
