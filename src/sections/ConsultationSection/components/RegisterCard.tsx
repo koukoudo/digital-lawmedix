@@ -25,13 +25,13 @@ export const RegisterCard = () => {
             </span>
           </h4>
         </div>
-        <div className="z-10 relative self-center caret-transparent grid grid-cols-[minmax(0px,1fr)] max-h-[99999px] max-w-[99999px] min-h-[46px] order-3 w-[171.025px] mr-0 scale-[0.973704px] md:min-h-[39.4083px] md:w-[189.567px] md:mr-[0.5px] md:scale-[0.966035px]">
+        <div className="z-10 relative self-center caret-transparent grid grid-cols-[minmax(0px,1fr)] max-h-[99999px] max-w-[99999px] min-h-[46px] order-3 w-[171.025px] mr-0 scale-[0.973704px] md:min-h-[39.4083px] md:w-[189.567px] md:mr-[0.5px] md:scale-[0.966035px] pointer-events-auto">
           <a
             href="https://app.digitalcabinet.co.za/forms/index.php?tid=16001"
             aria-label="Register Practice"
             target="_blank"
             rel="noopener noreferrer"
-            className="pointer-events-auto relative text-blue-700 items-center bg-transparent box-border caret-transparent flex justify-center min-w-full border border-stone-700 px-[14.86px] py-[7.925px] rounded-[250.99px] border-solid before:accent-auto before:self-stretch before:caret-transparent before:text-blue-700 before:block before:grow before:shrink-0 before:text-[10px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[normal] before:list-outside before:list-disc before:max-w-0 before:text-start before:indent-[0px] before:normal-case before:visible before:w-0 before:border-separate before:font-arial after:accent-auto after:self-stretch after:caret-transparent after:text-blue-700 after:block after:grow after:shrink-0 after:text-[10px] after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[normal] after:list-outside after:list-disc after:max-w-0 after:text-start after:indent-[0px] after:normal-case after:visible after:w-0 after:border-separate after:font-arial"
+            className="relative text-blue-700 items-center bg-transparent box-border caret-transparent flex justify-center min-w-full border border-stone-700 px-[14.86px] py-[7.925px] rounded-[250.99px] border-solid before:accent-auto before:self-stretch before:caret-transparent before:text-blue-700 before:block before:grow before:shrink-0 before:text-[10px] before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-[normal] before:list-outside before:list-disc before:max-w-0 before:text-start before:indent-[0px] before:normal-case before:visible before:w-0 before:border-separate before:font-arial after:accent-auto after:self-stretch after:caret-transparent after:text-blue-700 after:block after:grow after:shrink-0 after:text-[10px] after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-[normal] after:list-outside after:list-disc after:max-w-0 after:text-start after:indent-[0px] after:normal-case after:visible after:w-0 after:border-separate after:font-arial"
           >
             <span className="relative text-stone-700 text-base caret-transparent block leading-[22.4px] text-center font-helvetica_w01_roman">
               Register Practice
