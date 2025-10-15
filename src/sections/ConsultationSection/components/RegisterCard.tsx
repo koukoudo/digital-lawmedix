@@ -4,7 +4,7 @@ export const RegisterCard = () => {
       role=""
       className="relative self-start box-border caret-transparent gap-x-5 grid col-end-2 col-start-1 row-end-4 row-start-2 grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(134.947px,auto)] justify-self-end mr-[-0.00835571px] max-h-[99999px] max-w-[99999px] gap-y-5 w-[99.9214%] mt-[281.675px] px-[11.8769px] py-5 md:gap-x-0 md:row-end-3 md:grid-cols-[minmax(0px,270.021fr)] md:grid-rows-[minmax(172.309px,auto)] md:justify-self-center md:gap-y-0 md:w-[65.3806%] md:mr-[10.2502px] md:mt-0 md:p-[40.538px]"
     >
-      <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] pointer-events-none"></div>
+      <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
       <div
         role=""
         className="relative self-center box-border caret-transparent flex flex-col items-center col-end-2 col-start-1 row-end-2 row-start-1 justify-self-center mb-[-0.0167076px] max-w-[99999px] min-w-0 w-[99.8175%] mr-[0.794667px] mt-0 py-5 md:mt-[-0.528px] md:max-w-none md:min-w-[auto] md:w-[99.9884%] md:mr-[0.5px] md:mb-0 md:py-0"

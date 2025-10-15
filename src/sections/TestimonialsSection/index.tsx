@@ -37,7 +37,7 @@ export const TestimonialsSection = () => {
                       </div>
                     </div>
                   </div>
-                  <TestimonialNavigation
+                  {/* <TestimonialNavigation
                     variant=""
                     ariaLabel="Previous"
                     iconSrc="https://c.animaapp.com/mfzgti4gECrRkJ/assets/icon-7.svg"
@@ -46,7 +46,7 @@ export const TestimonialsSection = () => {
                     variant=""
                     ariaLabel="Next"
                     iconSrc="https://c.animaapp.com/mfzgti4gECrRkJ/assets/icon-7.svg"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>

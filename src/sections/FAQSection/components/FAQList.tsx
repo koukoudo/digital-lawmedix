@@ -23,7 +23,7 @@ export const FAQList = () => {
                       className="caret-transparent gap-x-3 flex flex-col gap-y-3"
                     >
                       <div className="caret-transparent">
-                        <button className="bg-transparent caret-transparent block w-full bg-[position:0px_0px] p-0">
+                        <button className="bg-transparent caret-transparent block w-full bg-[position:0px_0px] p-0 active:open">
                           <div className="items-start caret-transparent flex py-6">
                             <div className="caret-transparent flex w-full">
                               <div className="items-center caret-transparent flex grow">

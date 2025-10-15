@@ -1,6 +1,14 @@
 import { FooterContent } from "@/sections/Footer/components/FooterContent";
 
 export const Footer = () => {
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+  e.preventDefault();
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+};
+
   return (
     <footer className="relative self-stretch box-border caret-transparent grid col-end-2 col-start-1 row-end-[23] row-start-[22] grid-cols-[1fr] grid-rows-[1fr] justify-self-stretch z-50">
       <section className="relative self-stretch bg-transparent box-border caret-transparent gap-x-[50px] grid col-end-2 col-start-1 row-end-10 row-start-9 grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(50px,auto)_minmax(50px,auto)_minmax(50px,auto)_minmax(50px,auto)_minmax(80px,auto)] justify-self-stretch max-h-[99999px] max-w-[99999px] min-h-[967.781px] gap-y-[30px] pt-[60px] md:gap-x-10 md:grid-cols-[0.291008fr_0.137343fr_0.287216fr_0.323788fr] md:grid-rows-[minmax(198.438px,auto)_minmax(84.562px,auto)] md:min-h-[343px] md:gap-y-[normal]">
@@ -34,11 +42,33 @@ export const Footer = () => {
                     <div className="relative caret-transparent grid grid-cols-[1fr]">
                       <span className="relative caret-transparent grid text-ellipsis">
                         <a
-                          href="https://oaksdigital.wixstudio.com/digitallawmedix"
-                          className="relative text-stone-700 text-base caret-transparent block leading-[22.4px] text-ellipsis text-nowrap overflow-hidden py-[5px] font-madefor_text md:font-helvetica_w01_roman"
-                        >
-                          Services
-                        </a>
+                href="#services"
+                onClick={(e) => scrollToSection(e, 'services')}
+                className="relative text-blue-700 bg-transparent box-border caret-transparent block basis-[0%] grow m-1 p-1 cursor-pointer"
+              >
+                <div className="items-center box-border caret-transparent flex h-full justify-center">
+                  <span className="text-stone-700 text-base box-border caret-transparent block min-h-0 min-w-0 text-nowrap font-helvetica_w01_roman md:min-h-[auto] md:min-w-[auto]">
+                    Services
+                  </span>
+                </div>
+              </a>
+                      </span>
+                    </div>
+                  </li>
+                  <li className="relative bg-transparent box-border caret-transparent block text-center">
+                    <div className="relative caret-transparent grid grid-cols-[1fr]">
+                      <span className="relative caret-transparent grid text-ellipsis">
+                         <a
+                href="#about"
+                onClick={(e) => scrollToSection(e, 'about')}
+                className="relative text-blue-700 bg-transparent box-border caret-transparent block basis-[0%] grow m-1 p-1 cursor-pointer"
+              >
+                <div className="items-center box-border caret-transparent flex h-full justify-center">
+                  <span className="text-stone-700 text-base box-border caret-transparent block min-h-0 min-w-0 text-nowrap font-helvetica_w01_roman md:min-h-[auto] md:min-w-[auto]">
+                    About
+                  </span>
+                </div>
+              </a>
                       </span>
                     </div>
                   </li>
@@ -46,23 +76,16 @@ export const Footer = () => {
                     <div className="relative caret-transparent grid grid-cols-[1fr]">
                       <span className="relative caret-transparent grid text-ellipsis">
                         <a
-                          href="https://oaksdigital.wixstudio.com/digitallawmedix"
-                          className="relative text-stone-700 text-base caret-transparent block leading-[22.4px] text-ellipsis text-nowrap overflow-hidden py-[5px] font-madefor_text md:font-helvetica_w01_roman"
-                        >
-                          About
-                        </a>
-                      </span>
-                    </div>
-                  </li>
-                  <li className="relative bg-transparent box-border caret-transparent block text-center">
-                    <div className="relative caret-transparent grid grid-cols-[1fr]">
-                      <span className="relative caret-transparent grid text-ellipsis">
-                        <a
-                          href="https://oaksdigital.wixstudio.com/digitallawmedix"
-                          className="relative text-stone-700 text-base caret-transparent block leading-[22.4px] text-ellipsis text-nowrap overflow-hidden py-[5px] font-madefor_text md:font-helvetica_w01_roman"
-                        >
-                          FAQ
-                        </a>
+                href="#faq"
+                onClick={(e) => scrollToSection(e, 'faq')}
+                className="relative text-blue-700 bg-transparent box-border caret-transparent block basis-[0%] grow m-1 p-1 cursor-pointer"
+              >
+                <div className="items-center box-border caret-transparent flex h-full justify-center">
+                  <span className="text-stone-700 text-base box-border caret-transparent block min-h-0 min-w-0 text-nowrap font-helvetica_w01_roman md:min-h-[auto] md:min-w-[auto]">
+                    FAQ
+                  </span>
+                </div>
+              </a>
                       </span>
                     </div>
                   </li>

@@ -31,9 +31,9 @@ export const App = () => {
                   <div className="caret-transparent">
                     <div className="relative caret-transparent grid grid-cols-[minmax(0px,1fr)] grid-rows-[1fr] overflow-clip">
                       <div className="relative box-border caret-transparent grid grid-cols-[minmax(0px,1fr)] grid-rows-[auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_0px_auto_auto_auto_auto_auto_auto_0px_auto_auto] md:grid-rows-[auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_auto_0px_auto_auto_auto_0px_auto_auto_auto_auto]">
-                        <div className="fixed caret-transparent grid grid-cols-[1fr] grid-rows-[1fr] h-full w-full z-[54] left-0 top-0">
+                        {/* <div className="fixed caret-transparent grid grid-cols-[1fr] grid-rows-[1fr] h-full w-full z-[54] left-0 top-0"> */}
                           <Header />
-                        </div>
+                        {/* </div> */}
                         <main className="caret-transparent contents">
                           <Hero />
                           <ConsultationSection />
@@ -204,9 +204,6 @@ export const App = () => {
                           <ContactSection />
                         </main>
                         <Footer />
-                        <div className="fixed caret-transparent grid grid-cols-[1fr] grid-rows-[1fr] h-full w-full z-[55] left-0 top-0 pointer-events-none">
-                          <div className="relative self-stretch box-border caret-transparent grid col-end-2 col-start-1 row-end-2 row-start-1 grid-cols-[1fr] grid-rows-[1fr] justify-self-stretch ml-[0%] md:self-start md:justify-self-end md:ml-0"></div>
-                        </div>
                       </div>
                     </div>
                   </div>
