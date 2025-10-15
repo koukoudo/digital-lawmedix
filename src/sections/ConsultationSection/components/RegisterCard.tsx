@@ -9,7 +9,6 @@ export const RegisterCard = () => {
         role=""
         className="relative self-center box-border caret-transparent flex flex-col items-center col-end-2 col-start-1 row-end-2 row-start-1 justify-self-center mb-[-0.0167076px] max-w-[99999px] min-w-0 w-[99.8175%] mr-[0.794667px] mt-0 py-5 md:mt-[-0.528px] md:max-w-none md:min-w-[auto] md:w-[99.9884%] md:mr-[0.5px] md:mb-0 md:py-0"
       >
-    <div className="absolute bg-transparent caret-transparent inset-0 pointer-events-none"></div>
         <div className="relative self-center aspect-auto caret-transparent h-[42.025px] max-h-[99999px] max-w-[99999px] min-h-0 min-w-0 order-1 w-[75px] mx-auto mb-[19.9833px] md:aspect-[1_/_0.56079] md:h-auto md:max-h-none md:max-w-none md:min-h-[auto] md:min-w-[auto] md:w-[22.9249%] md:mb-[18.823px]">
           <div className="absolute caret-transparent fill-stone-700 stroke-blue-400 stroke-0 inset-0">
             <img
