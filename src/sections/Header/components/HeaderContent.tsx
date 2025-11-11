@@ -27,13 +27,17 @@ export const HeaderContent = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 z-[999] bg-white pointer-events-auto overflow-y-auto">
-          <div className="relative z-[1000] p-8 flex flex-col space-y-6 bg-white min-h-screen">
+        <div
+          className="md:hidden fixed inset-0 bg-white pointer-events-auto overflow-y-auto"
+          style={{ zIndex: 9999 }}
+        >
+          <div className="relative p-8 flex flex-col space-y-6 bg-white min-h-screen">
             <div className="flex justify-end mb-4">
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative z-[1001] p-2 text-stone-700 hover:text-stone-900 transition-colors pointer-events-auto"
+                className="relative p-2 text-stone-700 hover:text-stone-900 transition-colors pointer-events-auto touch-manipulation active:bg-stone-100 rounded"
                 aria-label="Close menu"
+                type="button"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -51,10 +55,10 @@ export const HeaderContent = () => {
                 </svg>
               </button>
             </div>
-            <div className="relative z-[1001]">
+            <div className="relative">
               <NavMenu onItemClick={() => setIsMobileMenuOpen(false)} />
             </div>
-            <div className="relative z-[1001] flex flex-col space-y-4 pt-6 border-t border-stone-200">
+            <div className="relative flex flex-col space-y-4 pt-6 border-t border-stone-200">
               <RegisterButton />
               <BookConsultationButton />
               <ServiceButton />
