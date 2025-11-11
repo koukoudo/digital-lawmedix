@@ -2,6 +2,8 @@ import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 import { ConsultationSection } from "@/sections/ConsultationSection";
 import { ImageSection } from "@/sections/ImageSection";
+import { ImageSection1 } from "@/sections/ImageSection/ImageSection1";
+import { ImageSection2 } from "@/sections/ImageSection/ImageSection2";
 import { ServicesSection } from "@/sections/ServicesSection";
 import { AboutSection } from "@/sections/AboutSection";
 import { BenefitsSection } from "@/sections/BenefitsSection";
@@ -120,37 +122,7 @@ export const App = () => {
                               </div>
                             </div>
                           </section>
-                          <section className="relative self-stretch bg-transparent caret-transparent flex flex-col col-end-2 col-start-1 row-end-[15] row-start-[14] justify-self-stretch max-h-[99999px] max-w-[99999px] md:row-end-[16] md:row-start-[15]">
-                            <div className="absolute caret-transparent h-full [mask-repeat:no-repeat] [mask-size:100%] w-full overflow-hidden left-0 top-0">
-                              <div className="absolute bg-neutral-100 caret-transparent h-full w-full top-0"></div>
-                              <div className="caret-transparent h-full"></div>
-                            </div>
-                            <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(147.825px,auto)] ml-[clamp(0px,50%_-_800px,375px)] max-w-[1600px] p-[8%] md:grid-rows-[minmax(504.575px,auto)] md:ml-[clamp(0px,50%_-_800px,1280px)]">
-                              <div
-                                role=""
-                                className="relative self-stretch box-border caret-transparent grid col-end-2 col-start-1 row-end-2 row-start-1 grid-cols-[minmax(0px,1fr)] grid-rows-[1fr] justify-self-stretch"
-                              >
-                                <div className="absolute bg-transparent caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
-                                <div className="relative self-stretch caret-transparent col-end-2 col-start-1 row-end-2 row-start-1 justify-self-stretch">
-                                  <div className="absolute box-border caret-transparent overflow-hidden rounded-[50px] inset-0">
-                                    <div className="caret-transparent h-full w-full">
-                                      <div className="caret-transparent">
-                                        <div className="absolute caret-transparent block h-full w-full overflow-clip inset-0">
-                                          <picture className="caret-transparent">
-                                            <img
-                                              src="https://c.animaapp.com/mfzgti4gECrRkJ/assets/11062b_bf31591db9854e46abe504cc40632339~mv2.jpg"
-                                              alt="Medical Record Review | Medicolegal Services | Pretoria, South Africa"
-                                              className="caret-transparent h-full [mask-repeat:no-repeat] [mask-size:100%_100%] object-cover object-[34%_31%] w-full"
-                                            />
-                                          </picture>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </section>
+                          <ImageSection1 />
                           <BenefitsSection />
                           <TestimonialsSection />
                           <section className="relative self-stretch bg-transparent caret-transparent hidden flex-col col-end-2 col-start-1 row-end-[18] row-start-[17] grid-cols-[minmax(0px,1fr)] grid-rows-[1fr] justify-self-stretch max-h-[99999px] max-w-[99999px] min-h-0 md:row-end-[19] md:row-start-[18] md:min-h-[943.667px]">
@@ -176,31 +148,7 @@ export const App = () => {
                             </div>
                           </section>
                           <FAQSection />
-                          <section className="relative self-stretch bg-transparent caret-transparent flex flex-col col-end-2 col-start-1 row-end-[20] row-start-[19] justify-self-stretch max-h-[99999px] max-w-[99999px] md:row-end-[21] md:row-start-[20]">
-                            <div className="absolute caret-transparent h-full [mask-repeat:no-repeat] [mask-size:100%] w-full overflow-hidden left-0 top-0">
-                              <div className="absolute bg-neutral-100 caret-transparent h-full w-full top-0"></div>
-                              <div className="caret-transparent h-full"></div>
-                            </div>
-                            <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(147.825px,auto)] ml-[clamp(0px,50%_-_800px,375px)] max-w-[1600px] p-[8%] md:grid-rows-[minmax(504.576px,auto)] md:ml-[clamp(0px,50%_-_800px,1280px)]">
-                              <div className="relative self-start aspect-[1_/_0.465094] caret-transparent col-end-2 col-start-1 row-end-2 row-start-1 justify-self-start max-h-[99999px] max-w-[99999px] w-[99.9998%] mt-[0.5px] md:mt-[0.53504px]">
-                                <div className="absolute box-border caret-transparent overflow-hidden rounded-[14.8456px] inset-0 md:rounded-[50.673px]">
-                                  <div className="caret-transparent h-full w-full">
-                                    <div className="caret-transparent">
-                                      <div className="absolute caret-transparent block h-full w-full overflow-clip inset-0">
-                                        <picture className="caret-transparent">
-                                          <img
-                                            src="https://c.animaapp.com/mfzgti4gECrRkJ/assets/7f14bd5b24c941fe82b08f34c1a84764.jpg"
-                                            alt="Case Analysis for Law Firms | Medicolegal Services | Pretoria, South Africa"
-                                            className="caret-transparent h-full [mask-repeat:no-repeat] [mask-size:100%_100%] object-cover w-full"
-                                          />
-                                        </picture>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </section>
+                          <ImageSection2 />
                           <ContactSection />
                         </main>
                         <Footer />
