@@ -3,6 +3,9 @@ import { MobileMenuButton } from "@/sections/Header/components/MobileMenuButton"
 import { Logo } from "@/components/Logo";
 import { DesktopNavigation } from "@/sections/Header/components/DesktopNavigation";
 import { NavMenu } from "@/sections/Header/components/NavMenu";
+import { RegisterButton } from "@/sections/Header/components/RegisterButton";
+import { BookConsultationButton } from "@/sections/Header/components/BookConsultationButton";
+import { ServiceButton } from "@/sections/Header/components/ServiceButton";
 
 export const HeaderContent = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -24,9 +27,14 @@ export const HeaderContent = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-white top-[134px] pointer-events-auto">
-          <div className="p-8">
+        <div className="md:hidden fixed inset-0 z-50 bg-white top-[134px] pointer-events-auto overflow-y-auto">
+          <div className="p-8 flex flex-col space-y-6">
             <NavMenu onItemClick={() => setIsMobileMenuOpen(false)} />
+            <div className="flex flex-col space-y-4 pt-6 border-t border-stone-200">
+              <RegisterButton />
+              <BookConsultationButton />
+              <ServiceButton />
+            </div>
           </div>
         </div>
       )}

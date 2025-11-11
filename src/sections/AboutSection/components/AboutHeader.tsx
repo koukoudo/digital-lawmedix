@@ -8,7 +8,7 @@ export const AboutHeader = () => {
       <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(max-content,99.9999%)] pl-[8%] md:grid-rows-[1fr] md:pl-0">
         <div
           role=""
-          className="relative self-start box-border caret-transparent grid col-end-2 col-start-1 row-end-2 row-start-1 grid-cols-[minmax(0px,256.855fr)] grid-rows-[minmax(47.619px,auto)] h-[107.143px] justify-self-start max-h-[99999px] max-w-[99999px] w-[99.9958%] mt-[0.5px] top-auto md:sticky md:grid-rows-[minmax(584.094px,auto)] md:h-[500px] md:top-[158px]"
+          className="relative self-start box-border caret-transparent grid col-end-2 col-start-1 row-end-2 row-start-1 grid-cols-[minmax(0px,256.855fr)] grid-rows-[minmax(47.619px,auto)] h-[107.143px] justify-self-start max-h-[99999px] max-w-[99999px] w-[99.9958%] mt-[0.5px] top-auto md:sticky md:grid-rows-[minmax(584.094px,auto)] md:h-auto md:top-[140px]"
         >
           <div className="absolute bg-transparent caret-transparent inset-0"></div>
           <div
