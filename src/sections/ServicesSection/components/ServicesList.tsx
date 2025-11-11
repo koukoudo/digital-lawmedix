@@ -13,9 +13,9 @@ export const ServicesList = () => {
           >
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
                 <div
                   role=""
@@ -51,9 +51,9 @@ export const ServicesList = () => {
             </div>
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
                 <div
                   role=""
@@ -87,9 +87,9 @@ export const ServicesList = () => {
             </div>
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
                 <div
                   role=""
@@ -123,9 +123,9 @@ export const ServicesList = () => {
             </div>
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
                 <div
                   role=""
@@ -159,9 +159,9 @@ export const ServicesList = () => {
             </div>
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
                 <div
                   role=""
@@ -199,9 +199,9 @@ export const ServicesList = () => {
             </div>
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
                 <div
                   role=""
@@ -243,9 +243,9 @@ export const ServicesList = () => {
             </div>
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
                 <div
                   role=""

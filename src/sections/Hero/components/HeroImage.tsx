@@ -6,8 +6,8 @@ export const HeroImage = () => {
     >
       <div className="absolute bg-transparent caret-transparent inset-0"></div>
       <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(11.9047px,auto)] md:grid-rows-[minmax(max-content,100%)]">
-        <div className="relative self-center aspect-[1_/_0.834579] caret-transparent col-end-2 col-start-1 row-end-2 row-start-1 justify-self-end max-h-[99999px] max-w-[99999px] w-[99.9261%] md:aspect-[1_/_0.666541] md:w-[99.9956%]">
-          <div className="absolute box-border caret-transparent overflow-hidden inset-0">
+        <div className="relative self-center aspect-[1_/_0.834579] caret-transparent col-end-2 col-start-1 row-end-2 row-start-1 justify-self-end max-h-[99999px] max-w-[99999px] w-[99.9261%] md:aspect-[1_/_0.666541] md:w-[99.9956%] animate-fade-in transition-transform duration-700 hover:scale-105">
+          <div className="absolute box-border caret-transparent overflow-hidden inset-0 rounded-lg shadow-lg">
             <div className="caret-transparent h-full w-full">
               <div className="caret-transparent">
                 <div className="absolute caret-transparent block h-full w-full overflow-clip inset-0">

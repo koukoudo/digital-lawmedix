@@ -13,9 +13,9 @@ export const BenefitsList = () => {
           >
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] translate-x-[100.0%] w-full md:transform-none md:w-[calc(33.3333%_-_26.6667px)]"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] translate-x-[100.0%] w-full md:transform-none md:w-[calc(33.3333%_-_26.6667px)] transition-all duration-300 hover:scale-[1.05] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100/100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent gap-x-0 grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(151.497px,auto)] gap-y-0 px-[8%] py-[5%] md:grid-rows-[minmax(365.563px,auto)] md:p-0">
                 <div
                   role=""
@@ -40,9 +40,9 @@ export const BenefitsList = () => {
             </div>
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] translate-x-[100.0%] w-full md:transform-none md:w-[calc(33.3333%_-_26.6667px)]"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] translate-x-[100.0%] w-full md:transform-none md:w-[calc(33.3333%_-_26.6667px)] transition-all duration-300 hover:scale-[1.05] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100/100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent gap-x-0 grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(151.497px,auto)] gap-y-0 px-[8%] py-[5%] md:grid-rows-[minmax(365.563px,auto)] md:p-0">
                 <div
                   role=""
@@ -71,9 +71,9 @@ export const BenefitsList = () => {
             </div>
             <div
               role="listitem"
-              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] translate-x-[100.0%] w-full md:transform-none md:w-[calc(33.3333%_-_26.6667px)]"
+              className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] translate-x-[100.0%] w-full md:transform-none md:w-[calc(33.3333%_-_26.6667px)] transition-all duration-300 hover:scale-[1.05] hover:shadow-lg"
             >
-              <div className="absolute bg-zinc-100/100 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px]"></div>
+              <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
               <div className="relative box-border caret-transparent gap-x-0 grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(151.497px,auto)] gap-y-0 px-[8%] py-[5%] md:grid-rows-[minmax(365.563px,auto)] md:p-0">
                 <div
                   role=""
