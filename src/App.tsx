@@ -149,7 +149,6 @@ export const App = () => {
                           </section>
                           <FAQSection />
                           <ImageSection2 />
-                          <ContactSection />
                         </main>
                         <Footer />
                       </div>
