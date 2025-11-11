@@ -81,7 +81,7 @@ export const ContactForm = () => {
                 required
                 value={formData.name}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman transition-colors duration-200"
+                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman transition-colors duration-200 caret-stone-700"
               />
             </div>
 
@@ -96,7 +96,7 @@ export const ContactForm = () => {
                 required
                 value={formData.email}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman transition-colors duration-200"
+                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman transition-colors duration-200 caret-stone-700"
               />
             </div>
 
@@ -110,7 +110,7 @@ export const ContactForm = () => {
                 type="tel"
                 value={formData.phone}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman transition-colors duration-200"
+                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman transition-colors duration-200 caret-stone-700"
               />
             </div>
 
@@ -124,7 +124,7 @@ export const ContactForm = () => {
                 type="text"
                 value={formData.organisation}
                 onChange={handleInputChange}
-                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman transition-colors duration-200"
+                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman transition-colors duration-200 caret-stone-700"
               />
             </div>
 
@@ -139,7 +139,7 @@ export const ContactForm = () => {
                 value={formData.message}
                 onChange={handleInputChange}
                 rows={4}
-                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman resize-none transition-colors duration-200"
+                className="w-full px-3 py-2 text-stone-700 text-base bg-transparent border-b-2 border-stone-700/40 focus:border-blue-600 focus:border-b-2 outline-none font-helvetica_w01_roman resize-none transition-colors duration-200 caret-stone-700"
               />
             </div>
 
