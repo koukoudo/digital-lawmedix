@@ -36,12 +36,12 @@ export const ContactForm = () => {
       }
 
       // Send email via Supabase Edge Function
-      const apiUrl = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`;
+      const apiUrl = `https://vwmamivnuiyetegbrkin.supabase.co/functions/v1/send-contact-email`;
       const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+          'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ3bWFtaXZudWl5ZXRlZ2Jya2luIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4NzA5NzAsImV4cCI6MjA3ODQ0Njk3MH0.6oCgOxIDk5S5ZWAhnpfjwVRwtRPMD4hk6luKQdIFK_U`,
         },
         body: JSON.stringify(formData),
       });
