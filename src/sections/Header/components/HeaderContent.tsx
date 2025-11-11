@@ -3,9 +3,6 @@ import { MobileMenuButton } from "@/sections/Header/components/MobileMenuButton"
 import { Logo } from "@/components/Logo";
 import { DesktopNavigation } from "@/sections/Header/components/DesktopNavigation";
 import { NavMenu } from "@/sections/Header/components/NavMenu";
-import { RegisterButton } from "@/sections/Header/components/RegisterButton";
-import { BookConsultationButton } from "@/sections/Header/components/BookConsultationButton";
-import { ServiceButton } from "@/sections/Header/components/ServiceButton";
 
 export const HeaderContent = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -59,9 +56,32 @@ export const HeaderContent = () => {
               <NavMenu onItemClick={() => setIsMobileMenuOpen(false)} />
             </div>
             <div className="relative flex flex-col space-y-4 pt-6 border-t border-stone-200">
-              <RegisterButton />
-              <BookConsultationButton />
-              <ServiceButton />
+              <a
+                href="https://app.digitalcabinet.co.za/forms/index.php?tid=16001"
+                aria-label="Register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shadow-[rgba(0,0,0,0)_0.71px_0.71px_2px_0px] box-border caret-transparent block h-12 min-h-2.5 min-w-2.5 w-full border-stone-700 rounded-[250px] border-2 border-solid hover:bg-stone-400/30 active:bg-stone-400/50"
+              >
+                <span className="items-center caret-transparent flex h-full justify-center w-full">
+                  <span className="text-stone-700 text-base caret-transparent block text-center font-helvetica_w01_roman">
+                    Register
+                  </span>
+                </span>
+              </a>
+              <a
+                href="https://app.digitalcabinet.co.za/forms/index.php?tid=16002"
+                aria-label="Book Consultation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-stone-700 shadow-[rgba(0,0,0,0)_0.71px_0.71px_2px_0px] box-border caret-transparent block h-12 min-h-2.5 min-w-2.5 w-full border-stone-700 rounded-[250px] border-2 border-solid hover:bg-stone-700/80 active:bg-stone-700/60"
+              >
+                <span className="items-center caret-transparent flex h-full justify-center w-full">
+                  <span className="text-white text-base caret-transparent block text-center font-helvetica_w01_roman">
+                    Book Consultation
+                  </span>
+                </span>
+              </a>
             </div>
           </div>
         </div>
