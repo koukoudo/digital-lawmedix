@@ -1,4 +1,5 @@
 import { MouseEvent } from "react";
+import { Link } from "react-router-dom";
 
 export const FooterMenu = () => {
   const scrollToSection = (e: MouseEvent<HTMLAnchorElement>, sectionId: string) => {
@@ -79,6 +80,22 @@ export const FooterMenu = () => {
                   </span>
                 </div>
               </a>
+                  </span>
+                </div>
+              </li>
+              <li className="relative bg-transparent box-border caret-transparent block text-center">
+                <div className="relative caret-transparent grid grid-cols-[1fr]">
+                  <span className="relative caret-transparent grid text-ellipsis">
+                    <Link
+                to="/privacy-policy"
+                className="relative text-blue-700 bg-transparent box-border caret-transparent block basis-[0%] grow m-1 p-1 cursor-pointer"
+              >
+                <div className="items-center box-border caret-transparent flex h-full justify-center">
+                  <span className="text-stone-700 text-base box-border caret-transparent block min-h-0 min-w-0 text-nowrap font-helvetica_w01_roman md:min-h-[auto] md:min-w-[auto]">
+                    Privacy Policy
+                  </span>
+                </div>
+              </Link>
                   </span>
                 </div>
               </li>
