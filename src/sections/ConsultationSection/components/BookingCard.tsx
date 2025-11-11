@@ -2,7 +2,7 @@ export const BookingCard = () => {
   return (
     <div
       role=""
-      className="relative self-center box-border caret-transparent gap-x-5 grid col-end-2 col-start-1 row-end-3 row-start-2 grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(197.61px,auto)] justify-self-center mt-[-119.016px] max-h-[99999px] max-w-[99999px] gap-y-5 w-[99.9214%] ml-[0.00869464px] mr-0 px-[11.8769px] py-5 md:self-start md:gap-x-0 md:col-end-3 md:col-start-2 md:grid-cols-[minmax(0px,270.021fr)] md:grid-rows-[minmax(172.31px,auto)] md:justify-self-end md:mt-[-0.5px] md:gap-y-0 md:w-[65.9336%] md:ml-0 md:mr-[84.1816px] md:p-[40.538px] transition-all duration-300 hover:scale-[1.03] hover:shadow-lg"
+      className="relative self-center box-border caret-transparent gap-x-5 grid col-end-2 col-start-1 row-end-3 row-start-2 grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(197.61px,auto)] justify-self-center mt-[-119.016px] max-h-[99999px] max-w-[99999px] gap-y-5 w-[99.9214%] ml-[0.00869464px] mr-0 px-[11.8769px] py-5 md:self-start md:gap-x-0 md:col-end-3 md:col-start-2 md:grid-cols-[minmax(0px,270.021fr)] md:grid-rows-[minmax(172.31px,auto)] md:justify-self-end md:mt-[-0.5px] md:gap-y-0 md:w-[65.9336%] md:ml-0 md:mr-[84.1816px] md:p-[40.538px] transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] rounded-[14.8456px] md:rounded-[50.673px]"
     >
       <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
       <div
