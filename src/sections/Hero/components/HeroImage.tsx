@@ -2,7 +2,7 @@ export const HeroImage = () => {
   return (
     <div
       role=""
-      className="relative self-stretch caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-stretch md:col-end-3 md:col-start-2"
+      className="relative self-stretch caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-stretch order-1 md:col-end-3 md:col-start-2 md:order-2"
     >
       <div className="absolute bg-transparent caret-transparent inset-0"></div>
       <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(11.9047px,auto)] md:grid-rows-[minmax(max-content,100%)]">
