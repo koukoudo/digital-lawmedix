@@ -44,6 +44,12 @@ ${message}
           text: emailBody,
         }),
       });
+
+      if (!res.ok) {
+        const errorData = await res.text();
+        throw new Error(`Failed to send email to ${recipient}: ${res.status} ${errorData}`);
+      }
+
       return res;
     });
 
