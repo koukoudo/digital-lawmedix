@@ -49,14 +49,8 @@ export const FAQList = () => {
           <div className="caret-transparent">
             <div className="caret-transparent">
               <div className="caret-transparent">
-                <div className="bg-transparent caret-transparent gap-x-6 grid [grid-template-areas:'Header_Header_Header_Header_Header''Tabs_Tabs_Tabs_Tabs_Tabs''Body_Body_Body_Body_Body'] grid-cols-[1fr_1fr_1fr_1fr_1fr] grid-rows-[auto_auto_1fr] h-full gap-y-6 p-8">
-                  <div className="self-center box-border caret-transparent col-end-[Header] col-start-[Header] row-end-[Header] row-start-[Header] justify-self-center">
-                    <span className="text-stone-700 text-base font-bold caret-transparent leading-[19.2px] font-helvetica_w01_bold">
-                      Frequently asked questions
-                    </span>
-                  </div>
-                  <div className="box-border caret-transparent hidden col-end-[Tabs] col-start-[Tabs] row-end-[Tabs] row-start-[Tabs] mt-2"></div>
-                  <div className="box-border caret-transparent col-end-[span_5] col-start-1 row-end-[span_2] row-start-2">
+                <div className="bg-transparent caret-transparent gap-x-6 grid [grid-template-areas:'Body_Body_Body_Body_Body'] grid-cols-[1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr] h-full gap-y-6 p-8">
+                  <div className="box-border caret-transparent col-end-[span_5] col-start-1 row-end-[span_1] row-start-1">
                     <div
                       role="region"
                       className="caret-transparent gap-x-3 flex flex-col gap-y-3"

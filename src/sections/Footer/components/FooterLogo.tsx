@@ -7,9 +7,9 @@ export const FooterLogo = () => {
             <div className="absolute caret-transparent block h-full w-full overflow-clip inset-0">
               <picture className="caret-transparent">
                 <img
-                  src="https://c.animaapp.com/mfzgti4gECrRkJ/assets/637169_59e483602ce142c096058da656eb2ef7~mv2-1.png"
-                  alt="DigitalLawMedix_Logo_HighRes_TransparentBackground_edited.png"
-                  className="caret-transparent h-full [mask-repeat:no-repeat] [mask-size:100%_100%] object-cover w-full"
+                  src="/assets/images/DigitalLawMedix_Logo_HighRes_TransparentBackground.png"
+                  alt="DigitalLawMedix_Logo_HighRes_TransparentBackground"
+                  className="caret-transparent h-full [mask-repeat:no-repeat] [mask-size:100%_100%] object-contain w-full"
                 />
               </picture>
             </div>
