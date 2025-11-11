@@ -27,8 +27,30 @@ export const HeaderContent = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-white top-[134px] pointer-events-auto overflow-y-auto">
+        <div className="md:hidden fixed inset-0 z-[200] bg-white pointer-events-auto overflow-y-auto">
           <div className="p-8 flex flex-col space-y-6">
+            <div className="flex justify-end mb-4">
+              <button
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="p-2 text-stone-700 hover:text-stone-900 transition-colors"
+                aria-label="Close menu"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
             <NavMenu onItemClick={() => setIsMobileMenuOpen(false)} />
             <div className="flex flex-col space-y-4 pt-6 border-t border-stone-200">
               <RegisterButton />
