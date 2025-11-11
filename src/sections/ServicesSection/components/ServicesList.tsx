@@ -16,7 +16,7 @@ export const ServicesList = () => {
               className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] rounded-[14.8456px] md:rounded-[50.673px]"
             >
               <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
-              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
+              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(auto,auto)] md:px-[5%] md:py-[4%]">
                 <div
                   role=""
                   className="relative self-center box-border caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-start mb-[-0.00952757%] max-h-[99999px] min-h-[auto] w-[95.7598%] mt-[0%] mx-[0%] md:flex-row md:mt-[-0.0491%] md:max-h-none md:min-h-0 md:w-max md:ml-[7.99795%] md:mb-[0%]"
@@ -54,7 +54,7 @@ export const ServicesList = () => {
               className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] rounded-[14.8456px] md:rounded-[50.673px]"
             >
               <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
-              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
+              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(auto,auto)] md:px-[5%] md:py-[4%]">
                 <div
                   role=""
                   className="relative self-center box-border caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-start mb-[-0.00952757%] max-h-[99999px] min-h-[auto] w-[95.7598%] mt-[0%] mx-[0%] md:flex-row md:mt-[-0.0491%] md:max-h-none md:min-h-0 md:w-max md:ml-[7.99795%] md:mb-[0%]"
@@ -90,7 +90,7 @@ export const ServicesList = () => {
               className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] rounded-[14.8456px] md:rounded-[50.673px]"
             >
               <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
-              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
+              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(auto,auto)] md:px-[5%] md:py-[4%]">
                 <div
                   role=""
                   className="relative self-center box-border caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-start mb-[-0.00952757%] max-h-[99999px] min-h-[auto] w-[95.7598%] mt-[0%] mx-[0%] md:flex-row md:mt-[-0.0491%] md:max-h-none md:min-h-0 md:w-max md:ml-[7.99795%] md:mb-[0%]"
@@ -126,7 +126,7 @@ export const ServicesList = () => {
               className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] rounded-[14.8456px] md:rounded-[50.673px]"
             >
               <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
-              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
+              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(auto,auto)] md:px-[5%] md:py-[4%]">
                 <div
                   role=""
                   className="relative self-center box-border caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-start mb-[-0.00952757%] max-h-[99999px] min-h-[auto] w-[95.7598%] mt-[0%] mx-[0%] md:flex-row md:mt-[-0.0491%] md:max-h-none md:min-h-0 md:w-max md:ml-[7.99795%] md:mb-[0%]"
@@ -162,7 +162,7 @@ export const ServicesList = () => {
               className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] rounded-[14.8456px] md:rounded-[50.673px]"
             >
               <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
-              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
+              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(auto,auto)] md:px-[5%] md:py-[4%]">
                 <div
                   role=""
                   className="relative self-center box-border caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-start mb-[-0.00952757%] max-h-[99999px] min-h-[auto] w-[95.7598%] mt-[0%] mx-[0%] md:flex-row md:mt-[-0.0491%] md:max-h-none md:min-h-0 md:w-max md:ml-[7.99795%] md:mb-[0%]"
@@ -202,7 +202,7 @@ export const ServicesList = () => {
               className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] rounded-[14.8456px] md:rounded-[50.673px]"
             >
               <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
-              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
+              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(auto,auto)] md:px-[5%] md:py-[4%]">
                 <div
                   role=""
                   className="relative self-center box-border caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-start mb-[-0.00952757%] max-h-[99999px] min-h-[auto] w-[95.7598%] mt-[0%] mx-[0%] md:flex-row md:mt-[-0.0491%] md:max-h-none md:min-h-0 md:w-max md:ml-[7.99795%] md:mb-[0%]"
@@ -246,7 +246,7 @@ export const ServicesList = () => {
               className="relative caret-transparent flex flex-col shrink-0 max-h-[99999px] max-w-[99999px] w-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] rounded-[14.8456px] md:rounded-[50.673px]"
             >
               <div className="absolute bg-white/60 backdrop-blur-sm border border-zinc-200/50 caret-transparent rounded-[14.8456px] inset-0 md:rounded-[50.673px] transition-all duration-300"></div>
-              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(163.695px,auto)] md:px-0 md:py-[2%]">
+              <div className="relative box-border caret-transparent grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(111.023px,auto)] p-[8%] md:grid-rows-[minmax(auto,auto)] md:px-[5%] md:py-[4%]">
                 <div
                   role=""
                   className="relative self-center box-border caret-transparent flex flex-col col-end-2 col-start-1 row-end-2 row-start-1 justify-self-start mb-[-0.00952757%] max-h-[99999px] min-h-[auto] w-[95.7598%] mt-[0%] mx-[0%] md:flex-row md:mt-[-0.0491%] md:max-h-none md:min-h-0 md:w-max md:ml-[7.99795%] md:mb-[0%]"

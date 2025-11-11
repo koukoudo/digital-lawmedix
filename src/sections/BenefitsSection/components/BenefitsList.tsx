@@ -82,7 +82,7 @@ export const BenefitsList = () => {
                   <div className="absolute bg-transparent caret-transparent inset-0"></div>
                   <div className="relative self-center caret-transparent max-h-[99999px] max-w-[99999px] order-1 break-words w-[287.917px] mb-[7.05551%] mx-[0%] md:w-full md:mb-[8.84585%]">
                     <h3 className="text-stone-700 text-3xl font-bold caret-transparent break-words text-center font-helvetica_w01_roman md:text-[28.1761px]">
-                      Comprehensive Analysis
+                      Full Analysis
                     </h3>
                   </div>
                   <div className="relative self-center caret-transparent max-h-[99999px] max-w-[99999px] order-2 break-words w-full mb-[0%] mx-[0%]">

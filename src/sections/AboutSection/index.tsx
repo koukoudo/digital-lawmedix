@@ -8,7 +8,7 @@ export const AboutSection = () => {
         <div className="absolute bg-stone-400 caret-transparent h-full w-full top-0"></div>
         <div className="caret-transparent h-full"></div>
       </div>
-      <div className="relative box-border caret-transparent gap-x-[60px] grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(136.8px,auto)_minmax(auto,auto)] gap-y-0 pl-[0%] pr-0 pt-[15%] pb-[15%] md:gap-x-[59.999px] md:grid-cols-[0.820263fr_2.19551fr] md:grid-rows-[minmax(auto,auto)] md:p-[8%] md:pb-[12%]">
+      <div className="relative box-border caret-transparent gap-x-[60px] grid grow grid-cols-[minmax(0px,1fr)] grid-rows-[minmax(136.8px,auto)_minmax(auto,auto)] gap-y-0 pl-[0%] pr-0 pt-[15%] pb-[20%] md:gap-x-[59.999px] md:grid-cols-[0.820263fr_2.19551fr] md:grid-rows-[minmax(auto,auto)] md:p-[8%] md:pb-[15%]">
         <AboutHeader />
         <AboutContent />
       </div>
