@@ -15,7 +15,7 @@ export const FooterCopyright = () => {
         <div className="relative self-start caret-transparent col-end-2 col-start-1 row-end-2 row-start-1 justify-self-center max-h-[99999px] max-w-[99999px] break-words w-[39.4649%] ml-[0.00526457%] mr-[0%] mt-[23.4167px] mb-[0%] md:self-center md:justify-self-start md:w-max md:ml-[0%] md:mt-[0.00290638%]">
           <p className="text-stone-700 text-base caret-transparent break-words text-center font-helvetica_w01_roman md:text-left">
             <a
-              href="https://oaksdigital.wixstudio.com/digitallawmedix/privacy-policy"
+              href="https://digitallawmedix.co.za/privacy-policy"
               className="caret-transparent break-words text-center md:text-left"
             >
               Privacy Policy
