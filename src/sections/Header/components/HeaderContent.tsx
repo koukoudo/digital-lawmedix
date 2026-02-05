@@ -57,7 +57,7 @@ export const HeaderContent = () => {
             </div>
             <div className="relative flex flex-col space-y-4 pt-6 border-t border-stone-200">
               <a
-                href="https://app.digitalcabinet.co.za/forms/index.php?tid=16001"
+                href="https://app.digitalcabinet.co.za/share/?token=cc47159a8cdfee63F5b5a20a7dd2b0164"
                 aria-label="Register"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,7 +70,7 @@ export const HeaderContent = () => {
                 </span>
               </a>
               <a
-                href="https://app.digitalcabinet.co.za/forms/index.php?tid=16002"
+                href="https://app.digitalcabinet.co.za/share/?token=6cc386c7fd5b3383F535d7930599b9489"
                 aria-label="Book Consultation"
                 target="_blank"
                 rel="noopener noreferrer"

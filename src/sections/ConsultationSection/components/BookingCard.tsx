@@ -27,7 +27,7 @@ export const BookingCard = () => {
         </div>
         <div className="z-10 relative self-center caret-transparent grid grid-cols-[minmax(0px,1fr)] max-h-[99999px] max-w-[99999px] min-h-[46px] order-3 w-[171px] scale-[0.931798px] md:min-h-[38.3417px] md:w-[171.05px] md:scale-[0.98844px] pointer-events-auto">
           <a
-            href="https://app.digitalcabinet.co.za/forms/index.php?tid=16002"
+            href="https://app.digitalcabinet.co.za/share/?token=6cc386c7fd5b3383F535d7930599b9489"
             aria-label="Book Consultation"
             target="_blank"
             rel="noopener noreferrer"
