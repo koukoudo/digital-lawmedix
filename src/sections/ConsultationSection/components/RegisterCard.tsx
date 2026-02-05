@@ -27,7 +27,7 @@ export const RegisterCard = () => {
         </div>
         <div className="z-10 relative self-center caret-transparent grid grid-cols-[minmax(0px,1fr)] max-h-[99999px] max-w-[99999px] min-h-[46px] order-3 w-[171.025px] mr-0 scale-[0.973704px] md:min-h-[39.4083px] md:w-[189.567px] md:mr-[0.5px] md:scale-[0.966035px] pointer-events-auto">
           <a
-            href="https://app.digitalcabinet.co.za/forms/index.php?tid=16001"
+            href="https://app.digitalcabinet.co.za/share/?token=cc47159a8cdfee63F5b5a20a7dd2b0164"
             aria-label="Register Practice"
             target="_blank"
             rel="noopener noreferrer"
