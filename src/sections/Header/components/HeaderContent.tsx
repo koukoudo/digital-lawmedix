@@ -82,7 +82,6 @@ export const HeaderContent = () => {
                   </span>
                 </span>
               </a>
-              <div className="relative self-start caret-transparent hidden h-10 max-h-[99999px] max-w-[99999px] order-4 w-[170.854px] mt-[0.5px] md:block md:w-[348.85px]">
               <a
                 href="https://drsegwapa.co.za/"
                 aria-label="Plastic Reconstructive & Aesthetic Surgery"
@@ -96,7 +95,6 @@ export const HeaderContent = () => {
                   </span>
                 </span>
               </a>
-            </div>
             </div>
           </div>
         </div>
