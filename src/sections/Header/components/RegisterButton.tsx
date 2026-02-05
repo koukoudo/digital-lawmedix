@@ -2,7 +2,7 @@ export const RegisterButton = () => {
   return (
     <div className="relative self-start caret-transparent hidden h-10 min-w-0 order-4 w-[110px] mr-[2.96925px] md:block md:min-w-[auto] md:order-2 md:mr-[10.1784px]">
       <a
-        href="https://app.digitalcabinet.co.za/forms/index.php?tid=16001"
+        href="https://app.digitalcabinet.co.za/share/?token=cc47159a8cdfee63F5b5a20a7dd2b0164"
         aria-label="Register"
         target="_blank"
         rel="noopener noreferrer"

@@ -2,7 +2,7 @@ export const BookConsultationButton = () => {
   return (
     <div className="relative self-start caret-transparent hidden h-10 max-h-[99999px] max-w-[99999px] order-3 w-[170.854px] mr-0 md:block md:mr-[10.0946px]">
       <a
-        href="https://app.digitalcabinet.co.za/forms/index.php?tid=16002"
+        href="https://app.digitalcabinet.co.za/share/?token=6cc386c7fd5b3383F535d7930599b9489"
         aria-label="Book Consultation"
         target="_blank"
         rel="noopener noreferrer"
